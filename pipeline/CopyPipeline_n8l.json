@@ -38,7 +38,7 @@
 					"sink": {
 						"type": "BinarySink",
 						"storeSettings": {
-							"type": "AzureBlobFSWriteSettings"
+							"type": "AzureDataLakeStoreWriteSettings"
 						}
 					},
 					"enableStaging": false,

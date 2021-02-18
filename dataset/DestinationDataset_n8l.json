@@ -2,15 +2,15 @@
 	"name": "DestinationDataset_n8l",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage1",
+			"referenceName": "linkedService1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "Binary",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobFSLocation",
-				"fileSystem": "moviesdataset"
+				"type": "AzureDataLakeStoreLocation",
+				"folderPath": "moviesdataset"
 			}
 		}
 	}
