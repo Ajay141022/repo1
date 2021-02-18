@@ -1,0 +1,17 @@
+{
+	"name": "SourceDataset_1el",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStore1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureDataLakeStoreLocation",
+				"fileName": "genome-tags.csv"
+			}
+		}
+	}
+}
