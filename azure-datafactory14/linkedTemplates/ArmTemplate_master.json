@@ -31,6 +31,22 @@
 			"type": "string",
 			"defaultValue": "resourcegroup"
 		},
+		"linkedService1_properties_typeProperties_dataLakeStoreUri": {
+			"type": "string",
+			"defaultValue": "https://azuredatalake15.azuredatalakestore.net/webhdfs/v1"
+		},
+		"linkedService1_properties_typeProperties_tenant": {
+			"type": "string",
+			"defaultValue": "a4431f4b-c207-4733-9530-34c08a9b2b8d"
+		},
+		"linkedService1_properties_typeProperties_subscriptionId": {
+			"type": "string",
+			"defaultValue": "80424314-4546-4a68-bd01-bf38283d6cc0"
+		},
+		"linkedService1_properties_typeProperties_resourceGroupName": {
+			"type": "string",
+			"defaultValue": "resourcegroup"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -75,6 +91,18 @@
 					},
 					"AzureDataLakeStore1_properties_typeProperties_resourceGroupName": {
 						"value": "[parameters('AzureDataLakeStore1_properties_typeProperties_resourceGroupName')]"
+					},
+					"linkedService1_properties_typeProperties_dataLakeStoreUri": {
+						"value": "[parameters('linkedService1_properties_typeProperties_dataLakeStoreUri')]"
+					},
+					"linkedService1_properties_typeProperties_tenant": {
+						"value": "[parameters('linkedService1_properties_typeProperties_tenant')]"
+					},
+					"linkedService1_properties_typeProperties_subscriptionId": {
+						"value": "[parameters('linkedService1_properties_typeProperties_subscriptionId')]"
+					},
+					"linkedService1_properties_typeProperties_resourceGroupName": {
+						"value": "[parameters('linkedService1_properties_typeProperties_resourceGroupName')]"
 					}
 				}
 			},

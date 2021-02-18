@@ -23,6 +23,18 @@
 		"AzureDataLakeStore1_properties_typeProperties_resourceGroupName": {
 			"value": "resourcegroup"
 		},
+		"linkedService1_properties_typeProperties_dataLakeStoreUri": {
+			"value": "https://azuredatalake15.azuredatalakestore.net/webhdfs/v1"
+		},
+		"linkedService1_properties_typeProperties_tenant": {
+			"value": "a4431f4b-c207-4733-9530-34c08a9b2b8d"
+		},
+		"linkedService1_properties_typeProperties_subscriptionId": {
+			"value": "80424314-4546-4a68-bd01-bf38283d6cc0"
+		},
+		"linkedService1_properties_typeProperties_resourceGroupName": {
+			"value": "resourcegroup"
+		},
 		"containerUri": {
 			"value": ""
 		},
